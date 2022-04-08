@@ -1,0 +1,51 @@
+#otvet {
+  display: none;
+}
+
+body {
+  background: lavender;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 1;
+  display: inline;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: inline;
+  text-align: center;
+  margin: 1em 0;
+}
+pre {
+  margin: 20px auto;
+  width: 350px;
+  padding: 25px;
+  background: ghostwhite;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+input[tupe="number"] {
+  width: 40px;
+  text-align: right;
+}
+
+input[tupe="button"] {
+  background: darksalmon;
+  border: none;
+  padding: 10px 35px;
+  font-size: 20px;
+  color: whitesmoke;
+  border-radius: 6px;
+}
+
+input[type="button"]:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  color: steelblue;
+}
