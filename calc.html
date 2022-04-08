@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>квадратное уравнение</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <h2>Исходные данные</h2>
+    <p>
+      Квадратное уравнение - это уравнрение вида $$ах^2+bx+c=0,$$ где
+      коэффициенты $$a, b , c$$ - произвольные числа, причем $$а != 0.$$
+    </p>
+    <form action="">
+      <input type="number" id="a" placeholder="a" /> $$x^2 +$$
+      <input type="number" id="b" placeholder="b" /> $$x +$$
+      <input type="number" id="c" placeholder="c" /> $$= 0$$<input
+        type="button"
+        value="Решить"
+        onclick="prog();"
+      />
+    </form>
+    <div id="otvet">
+      <h2>Результат:</h2>
+      <pre id="result"></pre>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
